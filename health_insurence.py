@@ -13,7 +13,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 # apertura file csv e stampa delle info generale del dataset
-file_path = '/content/insurance2.csv'
+file_path = 'path/health_insurnce.csv'
 data = pd.read_csv(file_path, encoding='ISO-8859-1',  sep=',')
 
 # visualizzazione dati
